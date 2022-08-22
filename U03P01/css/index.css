@@ -3,16 +3,42 @@ h1{
     font-size:  24px;
     size: 900;
 }
-h2{ 
-    color: #242424;
-    size: 800;
+h2{
+    color: #606060;
+    font-size: 20px;
+    font-weight:800;
 }
 p{
-    color: #242424;
-    font-size: 15px;
-    
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
 }
 ul{
-    color: #242424;
+    font-family: monospace;
+    font-size: 18px;
+    margin-left: 100px;
+    padding: 20px;
+    border:2px solid red;
+    max-width:40%;
+    list-style-type:none;
     
+}
+
+ul a{
+    color:antiquewhite
+}
+
+a{
+    font-weight:bold;
+}
+
+li{
+    padding: 10px;
+}
+li:hover{
+    background-color: rgba(0,0,0,0,1);
+}
+.verde, .verde a {
+    color: green ;
 }
