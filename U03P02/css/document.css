@@ -40,6 +40,7 @@ nav {
 
 }
 
+
 .logo {
 
   color: rgb(0, 0, 0);
@@ -48,6 +49,9 @@ nav {
 
   display: inline-block;
 
+}
+.logo i.fa{
+  font-size: 35px;
 }
 
 .nav-links {
@@ -63,7 +67,14 @@ nav {
 }
 
 .nav-item:hover a {
-  color: yellow;
+
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(255, 0, 0);
+
+  text-shadow: 2px 2px 3px #000000;
+
+  border-radius: 10px;
 }
 
 .nav-item a {
@@ -74,5 +85,18 @@ nav {
 
   text-decoration: none;
 
-  color:#000000;
+  color: #000000;
+
+  font-style: inherit;
+}
+
+.nav-item-login a:hover {
+
+  color: aliceblue;
+
+  background-color: rgb(255, 0, 0);
+
+  text-shadow: 2px 2px 3px #000000;
+
+  border-radius: 10px;
 }
