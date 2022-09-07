@@ -39,12 +39,17 @@ nav li a {
     width: 100%;
     color: rgb(255, 255, 255);
     font-weight: 700;
+
 }
 
 main {
     float: left;
     width: 60%;
     padding: 0 20px;
+}
+h2{
+    text-align: center;
+    background-color: #095b37;
 }
 
 .right {
