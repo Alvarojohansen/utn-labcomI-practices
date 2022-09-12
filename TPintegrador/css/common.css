@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
- Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida SansUnicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -49,7 +48,7 @@ nav ul li a:hover{
     color: #00594c;
     border-radius: 10px;
     background-color: #5df2d6;
-    text-shadow: 2px 2px 3px #000000;
+    text-shadow: 2px 2px 3px whitesmoke;
 }
 
 nav li {
@@ -98,11 +97,13 @@ h2 {
     text-align: center;
 }
 
-h3 {
+h3{
     color: var(--color-theme);
     margin: 8px 0;
 }
-
+div {
+    text-align: center;
+}
 main section {
     display: flex;
     justify-content: space-around;
